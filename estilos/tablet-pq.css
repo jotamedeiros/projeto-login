@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* Versão Tablet Pequeno */
+
+:root {
+    --cor-branco: #ffffff;
+    --cor-quase-branco: #f5efff;
+    --cor-lilas-claro: #e5d9f2;
+    --cor-lilas: #cdc1ff;
+    --cor-violeta: #a594f9;
+    --cor-azul-discord: #7371fc;
+    --cor-roxo: #843bb4;
+    --cor-roxo-escuro: #1e0034;
+    --cor-preto: #000000;
+}
+
+body {
+    background-image: linear-gradient(to bottom, var(--cor-roxo-escuro), var(--cor-roxo), var(--cor-violeta), var(--cor-lilas));
+}
+
+#imagem {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+#login {
+    width: 80vw;
+    height: 280px;
+}
+
+#formulario {
+    float: right;
+    width: 69%;
+}

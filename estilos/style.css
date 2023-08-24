@@ -7,7 +7,8 @@
     --cor-lilas: #cdc1ff;
     --cor-violeta: #a594f9;
     --cor-azul-discord: #7371fc;
-    --cor-roxo: #5f2c82;
+    --cor-roxo: #843bb4;
+    --cor-roxo-escuro: #1e0034;
     --cor-preto: #000000;
 }
 
@@ -19,12 +20,14 @@
 
 body {
     background-color: var(--cor-roxo);
+    width: 100vw;
+    height: 100vh;
 }
 
 main {
     position: relative;
-    height: 100vh;
-    width: 100vw;
+    width: 100%;
+    height: 100%;
 }
 
 #imagem {
@@ -55,12 +58,13 @@ main {
 }
 
 h1 {
+    color: var(--cor-preto);
     text-align: center;
     padding-block: 10px;
 }
 
 p {
-    font-size: 0.9em;
+    font-size: 1em;
     text-align: center;
     margin-block: 8px;
 }
@@ -121,13 +125,14 @@ p {
 
 #entrar {
     display: block;
+    font-size: 15px;
     font-weight: bold;
+    text-align: center;
     color: white;
     background-color: var(--cor-roxo);
     width: 100%;
     height: 40px;
     margin-inline: auto;
-    margin-block: 5px;
     padding-inline: 30px;
     padding-block: 10px;
     border-radius: 10px;
@@ -140,8 +145,14 @@ p {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+}
+
 #esqueceu {
     display: block;
+    color: black;
+    font-size: 15px;
     background-color: var(--cor-branco);
     width: 100%;
     height: 40px;
