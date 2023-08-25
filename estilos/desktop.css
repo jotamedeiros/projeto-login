@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* Versão para desktop */
+
+body {
+    background-image: linear-gradient(to bottom, var(--cor-roxo-escuro), var(--cor-roxo), var(--cor-violeta), var(--cor-lilas));
+}
+
+#imagem {
+    background-image: url(../imagens/back-space1-grande.jpg);
+    float: right;
+    width: 48%;
+    height: 100%;
+    background-position: center top;
+}
+
+#login {
+    width: 950px;
+    height: 350px;
+}
+
+p {
+    font-size: 17px;
+}
+
+#formulario {
+    float: left;
+    width: 50%;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+
+#div-email {
+    margin-block: 15px;
+}
+
+#iemail {
+    width: 87%;
+}
+
+#div-senha {
+    margin-block: 15px;
+}
+
+#isenha {
+    width: 87%;
+}
+
+#entrar {
+    margin-block: 5px;
+}

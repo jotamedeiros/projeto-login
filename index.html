@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/tablet-pq.css" media="screen and (min-width: 768px) and (max-width: 992px)">
+    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (min-width: 992px)">
 </head>
 <body>
     <main>
@@ -19,7 +20,7 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Faça login para acessar sua conta e configurar seu ambiente.</p>
-                <form action="login.php" method="post" autocomplete="on">
+                <form id="form" action="login.php" method="post" autocomplete="on">
                     <div id="div-email">
                         <label for="iemail"><span id="person" class="material-icons">person</span></label>
                         <input type="email" name="email" id="iemail" placeholder="Seu e-mail" size="25" required>

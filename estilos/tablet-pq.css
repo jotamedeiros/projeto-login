@@ -14,22 +14,36 @@
     --cor-preto: #000000;
 }
 
+
 body {
     background-image: linear-gradient(to bottom, var(--cor-roxo-escuro), var(--cor-roxo), var(--cor-violeta), var(--cor-lilas));
 }
 
 #imagem {
+    background-image: url(../imagens/back-space1-med.jpg);
     float: left;
-    width: 30%;
+    width: 29%;
     height: 100%;
 }
 
 #login {
-    width: 80vw;
-    height: 280px;
+    width: 85vw;
+    height: 270px;
+}
+
+p {
+    font-size: 16px;
 }
 
 #formulario {
     float: right;
     width: 69%;
+}
+
+#iemail {
+    width: 84%;
+}
+
+#isenha {
+    width: 84%;
 }
